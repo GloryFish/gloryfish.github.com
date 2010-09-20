@@ -1,0 +1,122 @@
+/*
+   style.css
+   gloryfishfour
+   
+   Created by Jay Roberts on 2010-04-01.
+   Copyright 2010 GloryFish.org. All rights reserved.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cantarell', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
+  background-color: #ddd;
+  line-height: 24px;
+  text-shadow: #eee 1px 1px 1px;
+}
+
+#wrapper {
+  width: 500px;
+  margin: 20px auto 0 auto;
+}
+
+a {
+  font-weight: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 21px;
+  color: #333;
+  
+}
+
+h1 span {
+  color: #777;
+}
+
+h2 {
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+ul {
+  padding: 0 0 0 10px;
+  list-style-type: none;
+}
+
+ul.secondary > li {
+/*  line-height: 28px;*/
+}
+
+ul li ul {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+ul li ul li a span {
+  color: #555;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+span.more {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  color: #888;
+}
+
+#twitter {
+  margin-left: 10px;
+}
+
+#twitter li {
+  margin-bottom: 10px;
+}
+
+#twitter li a {
+  color: #777;
+}
+
+#photos ul li {
+  float: left;
+}
+
+#photos img {
+  margin: 5px;
+  border-top: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  height: 100px;
+}
+#so {
+  margin-left: 10px;
+}
+
+#gravatar {
+  float: left;
+  margin-right: 10px;
+}
+
+span.description {
+  display: block;
+  font-weight: normal;
+  font-size: 10px;
+}
+
+#footer {
+  width: 500px;
+  height: 200px;
+  margin: 0 auto 0 auto;
+  
+}
