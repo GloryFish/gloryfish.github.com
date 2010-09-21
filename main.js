@@ -12,12 +12,13 @@ $(document).ready(function() {
     $('span.more').hide();
   }
   
-  $('a.item').hover(
+  $('a.item').toggle(
     function() {
       $(this).next('span').show('medium');
+      return false;
     },
     function() {
-      // $(this).next('span').hide('medium');
+      window.location = $(this).attr('href');
     }
   );
   
@@ -37,7 +38,7 @@ function twitterCallback(statuses) {
 
 function flickrCallback(data) {
   $.each(data.items, function(index, photo) {
-    if (index > 2) {
+    if (index > 5) {
       return;
     }
     $('#photos ul').append('<li><a href="' +  photo.link + '"><img src="' + photo.media.m + '" alt="' + photo.title + '" /></a></li>');

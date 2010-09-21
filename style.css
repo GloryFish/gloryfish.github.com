@@ -12,8 +12,8 @@
 }
 
 body {
-  font-family: 'Cantarell', 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
-  background-color: #ddd;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #fff;
   line-height: 24px;
   text-shadow: #eee 1px 1px 1px;
 }
@@ -54,7 +54,7 @@ ul {
 }
 
 ul.secondary > li {
-/*  line-height: 28px;*/
+  clear: both;
 }
 
 ul li ul {
@@ -99,6 +99,7 @@ span.more {
   border-right: 1px solid #eee;
   height: 100px;
 }
+
 #so {
   margin-left: 10px;
 }
@@ -118,5 +119,4 @@ span.description {
   width: 500px;
   height: 200px;
   margin: 0 auto 0 auto;
-  
 }
